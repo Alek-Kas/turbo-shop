@@ -1,10 +1,9 @@
 # from django.conf.urls import url
 # from django.template.defaulttags import url
 from django.urls import path, re_path
-
 from . import views
 
-app_name = 'shop'
+# app_name = 'shop'
 """
 urlpatterns = [
     re_path(r'^$', views.product_list, name='product_list'),
